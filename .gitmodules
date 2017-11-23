@@ -1,0 +1,3 @@
+[submodule "lr"]
+	path = lr
+	url = https://github.com/when2water/logistic-regression-model
