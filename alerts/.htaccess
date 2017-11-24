@@ -1,3 +1,4 @@
+AddHandler cgi-script .py, .pyc
 
 # Protect the htaccess file
 <Files .htaccess>
