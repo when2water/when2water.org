@@ -1,11 +1,13 @@
 import urllib.request
 from getSignal import getSig
 import sys
+import os
 import traceback
 
 print("Getting Subscriber List...", end='')
-URL = "http://alerts.when2water.org/alerts.txt"
-alertsList = urllib.request.urlopen(URL).read().decode().split("\n")
+__location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
+alert_loc = os.path.join(__location__, '../alerts/alerts.txt')
+alertsList = [x.strip() for x in open(alert_loc, 'r').readlines()]
 print("done")
 
 for alert in alertsList:
