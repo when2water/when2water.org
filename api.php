@@ -155,7 +155,7 @@ Content-Type: text/html
       
       <p class="lead text-center">
       	Questions or feedback? 
-      	Send us an email at <a href="mailto:api@when2water.org">api@when2water.org</a>.
+      	Send us an email at <a href="mailto:info@when2water.org">info@when2water.org</a>.
       </p>
       <!-- <p class="lead">INFO ABOUT RESTRICTION PARAMETER</p> -->
     </div>

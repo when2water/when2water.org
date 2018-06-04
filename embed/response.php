@@ -2,7 +2,7 @@
 // verify that zip was sent
 if (! isset($_GET['zip'])) {
 	// if not, then redirect back to the form
-	header("Location: http://when2water.org/embed/form.php");
+	header("Location: /embed/form.php");
 }
 
 ?><html>

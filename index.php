@@ -11,7 +11,7 @@
     	.blend {
     		border: none;
     	}
-    	.inLine {
+    	.inline {
     		float: left;
     	}
     </style>
@@ -28,7 +28,7 @@
         <h1>Should I turn on my sprinkler system today? Find out:</h1>
       </div>
       <div>
-	      <div class="inLine" style="padding-right: 20px;">
+	      <div class="inline" style="padding-right: 20px;">
 	      	<iframe height="300px" src="embed/form.php" class="blend"></iframe>
 	      </div>
 	      <div style="font-size: 1.15em;">
@@ -43,8 +43,7 @@
 				to save water and money.
 			  </p>
 			  <p style="text-indent: 20px;">
-			  3. Come back tomorrow and repeat to view your new recommendations. We've made this easy for you with <a href="email_alert_registration.php">email</a> and <a href="text_message_alert_registration.php">text message</a> alerts delivered directly
-				to your inbox or phone on days when you need to water, saving you the hassle of checking online everyday!
+			  3. Come back tomorrow and repeat to view your new recommendations. 
 			  </p>
 			  <p>And that's it! Learn more about us on the <a href="about.php">About Us</a> page, or if you're interested in the nitty-gritty of our algorithm, check out the <a href="how_it_works.php">How It Works</a> page.
 			  Remember, <b>our service is free and always will be</b>. We hope you find it as useful as we do, and most of all, we hope you enjoy saving water and money as much we do! Thanks!
@@ -56,7 +55,6 @@
 		      	directly to your phone everyday, download our app, which will soon be available on the iOS and Android app stores. We can also send you
 		      	<a href="email_alert_registration.php">email</a> and <a href="text_message_alert_registration.php">text message</a> alerts on days when you need to irrigate your lawn.
 		      	Now let's save some water! -->
-          	  <!-- <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p> -->
           </div>
       </div>
     </div>

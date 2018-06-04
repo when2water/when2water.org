@@ -1,6 +1,6 @@
-<link rel="shortcut icon" href="favicon.ico">
-<link href="css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap core CSS -->
-<link href="css/site.css" rel="stylesheet"><!-- Site wide CSS -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link href="/css/bootstrap.min.css" rel="stylesheet"><!-- Bootstrap core CSS -->
+<link href="/css/site.css" rel="stylesheet"><!-- Site wide CSS -->
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
