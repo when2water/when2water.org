@@ -7,12 +7,12 @@ if (! isset($_GET['zip'])) {
 
 ?><html>
 	<head>
-		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
 		<?php
 		
-		$ch = curl_init("http://signal.when2water.org/index.php?zip=".$_GET['zip'] . "&restriction=".$_GET['restriction']);
+		$ch = curl_init("http://api.when2water.org/index.php?zip=".$_GET['zip'] . "&restriction=".$_GET['restriction']);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 		$out = curl_exec($ch);
 		curl_close($ch);
@@ -39,7 +39,7 @@ if (! isset($_GET['zip'])) {
 		echo $_GET['zip']; // send the entered zip code
 		
 		try {
-			$pch = curl_init("signal.when2water.org/zipInfo.php?zip=" . $_GET['zip']);
+			$pch = curl_init("http://api.when2water.org/zipInfo.php?zip=" . $_GET['zip']);
 			curl_setopt($pch, CURLOPT_RETURNTRANSFER, true);
 			$response = curl_exec($pch);
 			curl_close($pch);
