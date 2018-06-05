@@ -18,7 +18,7 @@
 			<h1><?php echo $_GET['e'] ?> Error</h1>
 		</div>
 		<p class="lead">
-			To report this error, send an email to the <a href="mailto:webmaster@when2water.org">webmaster</a>.
+			To report this error, send an email to the <a href="mailto:info@when2water.org">webmaster</a>.
 		</p>
 		<p class="lead">
 			Or, go back <a href="index.php">home</a>.
