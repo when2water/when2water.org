@@ -37,7 +37,7 @@
 		
 		<h2 id="overview">Overview</h2>
 		<div class="tab"><p class="lead">
-			The API endpoint is at <code>http://api.when2water.org/</code>.
+			The API endpoint is at <code>https://api.when2water.org/</code>.
 			All API requests will begin with the endpoint.
 			The API is <a href="http://en.wikipedia.org/wiki/Representational_state_transfer" target="_blank">RESTful</a>.
 			It accepts parameters through the <a href="http://en.wikipedia.org/wiki/Query_string" target="_blank">query string</a>.
