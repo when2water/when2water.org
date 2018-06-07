@@ -3,8 +3,7 @@ from getSignal import getSig
 import sys
 import traceback
 
-URL = "http://signal.when2water.org/zips.txt"
-zipList = urllib.request.urlopen(URL).read().decode().split("\n")
+zipList = open('../zips.txt').readlines()
 #print(zipList)
 
 for zips in zipList:

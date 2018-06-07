@@ -2,7 +2,8 @@ import json
 import urllib.request
 
 def getSig (zipCode, restriction=-1):
-    URL = "http://signal.when2water.org/index.php?zip={}&restriction={}&json=1".format(zipCode, restriction)
+    URL = "http://localhost/lr/?zip={}&restriction={}&json=1".format(zipCode, restriction)
+    #print(URL)
     sig = json.loads(urllib.request.urlopen(URL).read().decode())
     #print(sig)
     return sig['signal']
