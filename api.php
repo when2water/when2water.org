@@ -129,25 +129,25 @@
 			</p>
 			<p class="lead">
 				Example: Getting an Unformatted Response
-				<pre>$ curl "api.when2water.org/?zip=99801"
-				-1</pre>
+<pre>$ curl "api.when2water.org/?zip=99801"
+-1</pre>
 			</p>
 			<p class="lead">
 				Example: Getting a JSON Formatted Response
-				<pre>$ curl "api.when2water.org/?zip=99801&json=true"
-				{"signal":-1}</pre>
+<pre>$ curl "api.when2water.org/?zip=99801&json=true"
+{"signal":-1}</pre>
 			</p>
 			<p class="lead">
 				Example: Getting an Error Response Code, and an HTTP 200 OK, from an Invalid Request
-				<pre>$ curl -i "api.when2water.org/?zip=99999"
-					HTTP/1.1 200 OK
-					Date: Sat, 28 Jun 2014 03:41:07 GMT
-					Server: Apache mod_fcgid/2.3.10-dev
-					X-Powered-By: PHP/5.4.26
-					Content-Length: 2
-					Content-Type: text/html
+<pre>$ curl -i "api.when2water.org/?zip=99999"
+HTTP/1.1 200 OK
+Date: Sat, 28 Jun 2014 03:41:07 GMT
+Server: Apache mod_fcgid/2.3.10-dev
+X-Powered-By: PHP/5.4.26
+Content-Length: 2
+Content-Type: text/html
 
-				-3</pre>
+-3</pre>
 			</p>
 		</div>
 		
