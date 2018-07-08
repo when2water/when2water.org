@@ -3,4 +3,6 @@ error_log
 errors.txt
 /cgi-bin
 /sitemap.xml
+/wData
+/zips.txt
 

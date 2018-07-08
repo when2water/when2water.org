@@ -1,0 +1,17 @@
+# Protect the htaccess file
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+# Disable directory browsing 
+Options -Indexes
+
+# Error page for 404
+ErrorDocument 404 /error.php?e=404
+
+<FilesMatch "Dockerfile|php\.ini|docker-compose\.yml">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
