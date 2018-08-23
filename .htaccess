@@ -15,3 +15,5 @@ Order Allow,Deny
 Deny from all
 </FilesMatch>
 
+RedirectMatch 404 /\.git
+
