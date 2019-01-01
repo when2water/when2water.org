@@ -1,6 +1,0 @@
-[submodule "lr"]
-	path = lr
-	url = https://github.com/when2water/logistic-regression-model
-[submodule "svm"]
-	path = svm
-	url = https://github.com/when2water/svm-model

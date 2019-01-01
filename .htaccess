@@ -4,7 +4,7 @@ Order Allow,Deny
 Deny from all
 </Files>
 
-# Disable directory browsing 
+# Disable directory browsing
 Options -Indexes
 
 # Error page for 404
